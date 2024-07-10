@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        @apply box-border m-0 p-0 list-none scroll-smooth;
+    }
+
+    body {
+        @apply bg-dark-1 text-white font-inter;
+    }
+}
+
+@layer utilities{
+    .form-label {
+        @apply font-bold sm:text-lg max-sm:mb-1 mb-0.5;
+    }
+
+    .form-input {
+        @apply bg-dark-2 w-full py-2 px-3 rounded-lg;
+    }
+}
