@@ -65,7 +65,7 @@ TODO
 3. Create a `.env` file in the `root` directory and add your MongoDB URI and other necessary environment variables:
 
    ```env
-   MONGO_URI=your_mongo_db_uri
+   MONGODB_URL=your_mongo_db_uri
    PORT=3500
    ```
 
